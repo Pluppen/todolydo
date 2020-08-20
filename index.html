@@ -23,7 +23,7 @@
         let todosList = [];
 
         window.onload = () => {
-            todosList = JSON.parse(dwlocalStorage.getItem("todos")) || [];
+            todosList = JSON.parse(localStorage.getItem("todos")) || [];
             updateTodos();
         }
 
