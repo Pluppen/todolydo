@@ -3,6 +3,8 @@
 A simple Todo application made with electron!
 But hey! Let's make this an awesome open source todo application for computers!
 
+![screenshot of todo application!](https://i.imgur.com/2oPoFZ2.png)
+
 ## Adding themes
 If you want to contribute to this project with a theme. Follow this guide.
 
