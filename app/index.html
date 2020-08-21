@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODOLYDO</title>
+    <link id="css-tag" rel="stylesheet" href="./themes/standardTheme/standardTheme.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="flux">TODOLYDO</h1>
+        <input 
+            id="newTodo" 
+            type="text" 
+            placeholder="Write task, press ENTER"
+            onkeypress="handleKeyPress(event)"
+        />
+        <div id="todos" class="todos">
+        </div>
+    </div>
+    <script src="./scripts/theme_script.js"></script>
+    <script src="./scripts/todo_script.js"></script>
+    <script>
+        window.onload = () => {
+            themesOnLoad();
+            todosOnLoad();
+        }
+    </script>
+</body>
+</html>
