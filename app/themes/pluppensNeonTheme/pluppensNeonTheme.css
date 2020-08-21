@@ -104,7 +104,7 @@ input::placeholder {
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
 
-.flux {
+h1 {
     font-family: neon;
     font-size: 9vw;
     line-height: 9vw;
