@@ -4,7 +4,7 @@
   "description": "Open source todo application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ./app/main.js",
+    "start": "electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
     "postinstall": "electron-builder install-app-deps"
