@@ -16,6 +16,22 @@ body {
     font-family: 'Alata', sans-serif;
 }
 
+@keyframes removeTodo {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.removed-todo {
+    animation-name: removeTodo;
+    animation-duration: 0.5s;
+    animation-direction: forward;
+}
+
 .container {
     display: flex;
     flex-direction: column;

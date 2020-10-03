@@ -15,8 +15,11 @@ function handleKeyPress(e) {
 
 function removeTodo(e) {
     const todo = e.target.parentElement.parentElement;
-    todosList.splice(todo.id, 1);
-    updateTodos()
+    todo.classList.add("removed-todo");
+    setTimeout(() => {
+        todosList.splice(todo.id, 1);
+        updateTodos()
+    }, 500);
 }
 
 function addTodo(e) {

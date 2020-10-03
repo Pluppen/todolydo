@@ -15,7 +15,7 @@
     "appId": "com.electron.todolydo",
     "productName": "Todolydo",
     "dmg": {
-      "contents": [ 
+      "contents": [
         {
           "x": 110,
           "y": 150
